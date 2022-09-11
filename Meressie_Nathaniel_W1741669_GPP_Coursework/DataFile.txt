@@ -1,0 +1,61 @@
+Item: red key
+Description: A tiny key. Someone has painted it red for some reason.
+
+Item: letter
+Description: Junk mail. Not as relevant as you might have hoped.
+
+Item: rubber duck
+Description: It deserves better than getting left behind in this place.
+
+Item: screwdriver
+Description: It's a screwdriver, duh.
+
+Item: glass bottle
+Description: It is that object that can hold liquid....
+
+Item: cloth
+Description: It looks like its been used...
+
+Item: gold ring
+Description: A ring that Odin once wore!
+
+Item: strongbox
+Description: A sturdy box. It has seen better times.
+Contents: red key, letter
+Keys: screwdriver
+
+Location: 1
+Name: Outside a building
+Description: You are standing in front of a small building. 
+Contents: screwdriver, strongbox
+WEST 3
+NORTH 2, red key
+IN 2, red key
+
+Location: 2
+Name: Inside a building
+Description: You are inside a building, a well house for a large spring.
+Contents: rubber duck
+SOUTH 1
+OUT 1
+
+Location: 3
+Name: At a shop
+Description: A shop that sells... items... and...
+Contents: glass bottle
+EAST 1
+NORTH 4
+
+Location: 4
+Name: At a Receptionist Area
+Description: The local guide works, here but he is not here, now.
+Contents: cloth
+SOUTH 3
+WEST 5
+
+Location: 5
+Name: At a GoldSmiths Stand
+Description: It was said once that a legendary crafter worked here, guess he is no longer here.
+Contents: gold ring
+WEST 3
+EAST 4
